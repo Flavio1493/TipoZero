@@ -1,0 +1,357 @@
+/* Estilos para todas las paginas */
+
+body {
+  margin: 0;
+  background-color: #282828;
+}
+
+/* Home */
+
+.logo {
+  margin: 20px;
+  width: 50px;
+  height: 40px;
+}
+
+.menu {
+  list-style: none;
+  font-family: Genhead;
+  font-weight: bold;
+}
+
+.elementos-menu {
+  text-decoration: none;
+  color: #282828;
+}
+
+.nav-bar {
+  padding: 0px;
+  margin: 0;
+  width: 100%;
+  border-bottom: #282828 solid 3px;
+  background-color: #dce3e3;
+}
+
+.img-principal {
+  height: 500px;
+  width: 100%;
+  background-image: url(../recursos/img/img-principal-home.jpg);
+  background-size: cover;
+  background-position: center;
+  /* background-attachment: fixed; */
+}
+
+.titulo {
+  font-family: Genhead;
+  color: #dce3e3;
+  font-weight: bold;
+  font-size: 50px;
+  margin: 15px;
+}
+
+.img-2 {
+  background: url(../recursos/img/img-2-home.jpg);
+  width: 500px;
+  height: 500px;
+  margin: 15px;
+  background-size: cover;
+  background-position: top;
+}
+
+.parrafo-1 {
+  font-family: sans-serif;
+  color: #dce3e3;
+  margin: 15px;
+}
+
+.parrafo-2 {
+  font-family: sans-serif;
+  color: #dce3e3;
+  margin: 15px;
+}
+
+.img-3 {
+  background: url(../recursos/img/img-3.1-home.jpg);
+  width: 500px;
+  height: 500px;
+  margin: 15px;
+  background-size: cover;
+  background-position: top;
+}
+
+.img-4 {
+  background: url(../recursos/img/img-3.2-home.jpg);
+  width: 500px;
+  height: 500px;
+  margin: 15px;
+  background-size: cover;
+  background-position: top;
+}
+
+.footer {
+  background-color: #dce3e3;
+}
+
+.footer li {
+  text-decoration: none;
+  list-style: none;
+  font-family: Genhead;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.lista-footer {
+  margin: 0;
+  padding: 10px;
+}
+
+/* Pizzettas */
+
+.titulo-pag-pizzettas {
+  font-family: Genhead;
+  color: #dce3e3;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 15px;
+}
+
+.titulo-blancas {
+  font-family: Genhead;
+  color: #dce3e3;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 15px;
+}
+
+.img-pizzettas-1 {
+  background: url(../recursos/img/img-3.2-home.jpg);
+  width: 500px;
+  height: 500px;
+  margin: 15px;
+  background-size: cover;
+  background-position: top;
+}
+
+.img-pizzettas-2 {
+  background: url(../recursos/img/img-3.2-home.jpg);
+  width: 500px;
+  height: 500px;
+  margin: 15px;
+  background-size: cover;
+  background-position: top;
+}
+
+.img-pizzettas-3 {
+  background: url(../recursos/img/img-3.2-home.jpg);
+  width: 500px;
+  height: 500px;
+  margin: 15px;
+  background-size: cover;
+  background-position: top;
+}
+
+.parrafo-pizzettas-1 {
+  font-family: sans-serif;
+  color: #dce3e3;
+  margin: 15px;
+}
+
+.parrafo-pizzettas-2 {
+  font-family: sans-serif;
+  color: #dce3e3;
+  margin: 15px;
+}
+
+.parrafo-pizzettas-3 {
+  font-family: sans-serif;
+  color: #dce3e3;
+  margin: 15px;
+}
+
+.titulo-rojas {
+  font-family: Genhead;
+  color: #dce3e3;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 15px;
+}
+
+.img-pizzettas-4 {
+  background: url(../recursos/img/img-3.2-home.jpg);
+  width: 500px;
+  height: 500px;
+  margin: 15px;
+  background-size: cover;
+  background-position: top;
+}
+
+.img-pizzettas-5 {
+  background: url(../recursos/img/img-3.2-home.jpg);
+  width: 500px;
+  height: 500px;
+  margin: 15px;
+  background-size: cover;
+  background-position: top;
+}
+
+.img-pizzettas-6 {
+  background: url(../recursos/img/img-3.2-home.jpg);
+  width: 500px;
+  height: 500px;
+  margin: 15px;
+  background-size: cover;
+  background-position: top;
+}
+
+.parrafo-pizzettas-4 {
+  font-family: sans-serif;
+  color: #dce3e3;
+  margin: 15px;
+}
+
+.parrafo-pizzettas-5 {
+  font-family: sans-serif;
+  color: #dce3e3;
+  margin: 15px;
+}
+
+.parrafo-pizzettas-6 {
+  font-family: sans-serif;
+  color: #dce3e3;
+  margin: 15px;
+}
+
+/* Historia */
+
+.img-principal-historia {
+  height: 500px;
+  width: 100%;
+  background-image: url(../recursos/img/img-principal-home.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.parrafo-historia-1 {
+  font-family: sans-serif;
+  color: #dce3e3;
+  margin: 15px;
+}
+
+.img-historia-1 {
+  background: url(../recursos/img/img-historia-1.jpg);
+  width: 500px;
+  height: 500px;
+  margin: 15px;
+  background-size: cover;
+  background-position: top;
+}
+
+.img-historia-2 {
+  background: url(../recursos/img/img-historia-2.jpg);
+  width: 500px;
+  height: 500px;
+  margin: 15px;
+  background-size: cover;
+  background-position: top;
+}
+
+.img-historia-3 {
+  background: url(../recursos/img/img-historia-3.jpg);
+  width: 500px;
+  height: 500px;
+  margin: 15px;
+  background-size: cover;
+  background-position: top;
+}
+
+.parrafo-historia-2 {
+  font-family: sans-serif;
+  color: #dce3e3;
+  margin: 15px;
+}
+
+/* Contactos */
+
+.img-principal-contactos {
+  height: 500px;
+  width: 100%;
+  background-image: url(../recursos/img/img-principal-contactos.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.logos-contacto {
+  padding: 15px;
+  height: 200px;
+  width: 200px;
+}
+
+.links-contactos {
+  text-decoration: none;
+  padding: 15px;
+  color: #dce3e3;
+  font-family: Genhead;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.footer-contactos {
+  font-family: Genhead;
+  font-weight: bold;
+  font-size: 10px;
+  background-color: #dce3e3;
+}
+
+.p-footer-contactos {
+  margin: 0;
+  padding: 0;
+}
+
+/* tips */
+
+.img-principal-tips {
+  height: 500px;
+  width: 100%;
+  background-image: url(../recursos/img/img-principal-tips.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.titulo-tips {
+  font-family: Genhead;
+  color: #dce3e3;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 15px;
+}
+
+.titulo-recalentado {
+  font-family: Genhead;
+  color: #dce3e3;
+  font-size: 15px;
+  font-weight: bold;
+  padding-left: 15px;
+}
+
+.subtitulos {
+  font-family: Genhead;
+  color: #c14c25;
+  font-size: 10px;
+  font-weight: bold;
+  padding-left: 15px;
+}
+
+.videos {
+  height: 300px;
+  width: 500px;
+  border-color: #c14c25;
+  border-style: solid;
+  border-width: 2px;
+  margin: 15px;
+}
+
+.parrafos {
+  font-family: sans-serif;
+  color: #dce3e3;
+  margin: 15px;
+}

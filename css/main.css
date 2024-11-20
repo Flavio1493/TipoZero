@@ -1,0 +1,152 @@
+/* Reset */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #282828;
+}
+
+/* ESTILOS NAVBAR */
+
+.navbar--personalizacion {
+    background-color: #dce3e3;
+    font-family: Genhead;
+    font-weight: bold;
+    color: #282828;
+}
+
+.logo--tamano {
+    width: 75px;
+    padding: 8px;
+}
+
+/* ESTILOS GENERALES */
+.main__imagenPricipal {
+    width: 100%;
+    height: 35vh;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.main__subtitulo {
+    font-family: Genhead;
+    font-weight: bold;
+    color: #00887a;
+    padding: 0;
+    margin: 0;
+    margin-right: 10px;
+    text-shadow: 0 0 2px #0009;
+}
+
+/**** ESTILOS DE HOME *****/
+
+/* Main */
+
+.imgPrincipal--imgPrincipalPagHome {
+    background-image: url(../recursos/img/img-principal-home-3.jpg);
+}
+
+.subtitulo--home {
+    font-size: 1.4rem;
+}
+
+.contenidoHome {
+    display: flex;
+    flex-direction: column;
+    color: #dce3e3;
+    margin: 10px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.contenidoHome__parrafo {
+    margin: 10px;
+}
+
+.contenidoHome__img {
+    width: 100%;
+    height: auto;
+}
+
+/**** ESTILOS DE PIZZETTAS *****/
+
+.imgPrincipal--imgPrincipalPagPizzettas {
+    background-image: url(../recursos/img/img-principal-pizzettas.jpg);
+}
+
+.subtitulo--pizzettas {
+    font-size: 1.1rem;
+    color: #282828;
+    text-shadow: 0 0 2px #dce3e3;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cards__card {
+    width: 45%;
+    height: 260px;
+    background-color: #dce3e3;
+    margin: 8px;
+    text-align: center;
+    line-height: 15px;
+    box-shadow: 0 0 10px #dce3e3;
+}
+
+.card__img {
+    width: 100%;
+}
+
+.title--card {
+    margin: 3px;
+    padding: 0;
+    font-family: Genhead;
+    font-weight: bold;
+}
+
+.cards__description {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+/* ************************************************************************** */
+
+
+
+/* ESTILOS DEL FOOTER */
+
+.footer {
+    margin: 10px;
+}
+
+.footer__list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: space-evenly;
+}
+
+.link__icon {
+    margin: 0;
+    padding: 0;
+    width: 35px;
+}
+
+.footer__parrafo {
+    margin: 5px;
+    text-align: center;
+    color: #dce3e3;
+}
