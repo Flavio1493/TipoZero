@@ -44,19 +44,11 @@ body {
     text-shadow: 0 0 2px #0009;
 }
 
-/**** ESTILOS DE HOME *****/
-
-/* Main */
-
-.imgPrincipal--imgPrincipalPagHome {
-    background-image: url(../recursos/img/img-principal-home-3.jpg);
-}
-
-.subtitulo--home {
+.subtitulo--custom {
     font-size: 1.4rem;
 }
 
-.contenidoHome {
+.contenido {
     display: flex;
     flex-direction: column;
     color: #dce3e3;
@@ -66,13 +58,21 @@ body {
     padding: 0;
 }
 
-.contenidoHome__parrafo {
+.contenido__parrafo {
     margin: 10px;
 }
 
-.contenidoHome__img {
+.contenido__img {
     width: 100%;
     height: auto;
+}
+
+/**** ESTILOS DE HOME *****/
+
+/* Main */
+
+.imgPrincipal--imgPrincipalPagHome {
+    background-image: url(../recursos/img/img-principal-home-3.jpg);
 }
 
 /**** ESTILOS DE PIZZETTAS *****/
@@ -108,6 +108,7 @@ body {
 }
 
 .title--card {
+    font-size: 0.8rem;
     margin: 3px;
     padding: 0;
     font-family: Genhead;
@@ -115,14 +116,19 @@ body {
 }
 
 .cards__description {
-    margin: 0;
+    margin: 3px;
     padding: 0;
-    font-family: Roboto;
-    font-weight: bold;
-    font-size: 0.9rem;
+    font-family: Anton;
+    font-size: 0.8rem;
 }
 
+/* ESTILOS PAGINA HISTORIA */
+
 /* ************************************************************************** */
+
+.imgPrincipal--imgPrincipalPagHistoria {
+    background-image: url(../recursos/img/historia-img-principa.jpg);
+}
 
 
 
@@ -137,6 +143,7 @@ body {
     margin: 0;
     padding: 0;
     justify-content: space-evenly;
+    list-style: none;
 }
 
 .link__icon {
