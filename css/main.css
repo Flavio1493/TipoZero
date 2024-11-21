@@ -3,10 +3,12 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #282828;
+    /* background-color: #282828; */
+    background-color: red;
 }
 
-/* ESTILOS NAVBAR */
+/* ESTILOS GENERALES - START */
+/* ESTILOS NAVBAR - START*/
 
 .navbar--personalizacion {
     background-color: #dce3e3;
@@ -20,7 +22,8 @@ body {
     padding: 8px;
 }
 
-/* ESTILOS GENERALES */
+/* ESTILOS NAVBAR - END*/
+/* MAIN - START */
 .main__imagenPricipal {
     width: 100%;
     height: 35vh;
@@ -67,15 +70,47 @@ body {
     height: auto;
 }
 
-/**** ESTILOS DE HOME *****/
+/* MAIN - END */
 
-/* Main */
+/* ESTILOS DEL FOOTER - START */
+
+.footer {
+    margin: 10px;
+}
+
+.footer__list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.link__icon {
+    margin: 0;
+    padding: 0;
+    width: 35px;
+}
+
+.footer__parrafo {
+    margin: 5px;
+    text-align: center;
+    color: #dce3e3;
+}
+
+/* ESTILOS DEL FOOTER - END */
+
+/**** ESTILOS DE HOME - START *****/
+/* MAIN - START*/
 
 .imgPrincipal--imgPrincipalPagHome {
     background-image: url(../recursos/img/img-principal-home-3.jpg);
 }
 
-/**** ESTILOS DE PIZZETTAS *****/
+/* MAIN - END*/
+/**** ESTILOS DE HOME - END *****/
+
+/**** ESTILOS DE PIZZETTAS - START *****/
 
 .imgPrincipal--imgPrincipalPagPizzettas {
     background-image: url(../recursos/img/img-principal-pizzettas.jpg);
@@ -122,38 +157,32 @@ body {
     font-size: 0.8rem;
 }
 
-/* ESTILOS PAGINA HISTORIA */
+/**** ESTILOS DE PIZZETTAS - END *****/
 
-/* ************************************************************************** */
+/* ESTILOS PAGINA HISTORIA - START */
 
 .imgPrincipal--imgPrincipalPagHistoria {
     background-image: url(../recursos/img/historia-img-principa.jpg);
 }
 
+/* ESTILOS PAGINA HISTORIA - END */
 
+/* ESTILOS PAGINA HISTORIA - START */
 
-/* ESTILOS DEL FOOTER */
-
-.footer {
-    margin: 10px;
+.imgPrincipal--imgPrincipalPagContactos {
+    background-image: url(../recursos/img/img-principal-contactos.jpg);
 }
 
-.footer__list {
+.contenido__contactos {
     display: flex;
-    margin: 0;
-    padding: 0;
-    justify-content: space-evenly;
-    list-style: none;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.link__icon {
-    margin: 0;
-    padding: 0;
-    width: 35px;
+.contacto__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.footer__parrafo {
-    margin: 5px;
-    text-align: center;
-    color: #dce3e3;
-}
+/* ESTILOS PAGINA HISTORIA - END */
