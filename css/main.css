@@ -3,8 +3,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* background-color: #282828; */
-    background-color: red;
+    background-color: #282828;
 }
 
 /* ESTILOS GENERALES - START */
@@ -186,3 +185,41 @@ body {
 }
 
 /* ESTILOS PAGINA HISTORIA - END */
+
+/* ESTILOS PAGINA CONTACTOS - START */
+
+.contenedor {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.link__contactos {
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    padding: 0;
+}
+
+.contenedor__icon {
+    width: 100%;
+}
+
+.contenedor__desc {
+    color: #dce3e3;
+    font-family: Genhead;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor__info {
+    color: #dce3e3;
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+
+/* ESTILOS PAGINA CONTACTOS - START */
