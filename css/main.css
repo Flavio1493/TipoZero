@@ -74,7 +74,7 @@ body {
 /* ESTILOS DEL FOOTER - START */
 
 .footer {
-    margin: 10px;
+    background-color: #dce3e3;
 }
 
 .footer__list {
@@ -88,13 +88,15 @@ body {
 .link__icon {
     margin: 0;
     padding: 0;
+    margin-top: 10px;
     width: 35px;
 }
 
 .footer__parrafo {
     margin: 5px;
+    margin-bottom: 0;
     text-align: center;
-    color: #dce3e3;
+    color: #282828;
 }
 
 /* ESTILOS DEL FOOTER - END */
@@ -227,5 +229,30 @@ body {
     padding: 0;
 }
 
+/* ESTILOS PAGINA CONTACTOS - END */
 
-/* ESTILOS PAGINA CONTACTOS - START */
+/* ESTILOS PAGINA TIPS - START */
+.imgPrincipal--imgPrincipalPagTips {
+    background-image: url(../recursos/img/img-principal-tips.jpg);
+}
+
+.contenido__subtitulo {
+    font-family: Genhead;
+    font-weight: bold;
+    margin: 15px;
+}
+
+.contenido__airfryer {
+    font-family: Genhead;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.contenido_parrafo {
+    font-family: Roboto;
+    margin: 5px;
+    margin-bottom: 15px;
+}
+
+/* ESTILOS PAGINA TIPS - END */
