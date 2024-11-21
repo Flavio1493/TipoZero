@@ -194,6 +194,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 15px;
 }
 
 .link__contactos {
@@ -219,6 +220,11 @@ body {
     color: #dce3e3;
     font-family: Roboto;
     font-weight: bold;
+}
+
+.info--desc {
+    margin: 0;
+    padding: 0;
 }
 
 
