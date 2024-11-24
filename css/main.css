@@ -97,7 +97,7 @@ body {
 }
 
 .tituloHome--custom {
-    color: #00887a;
+    font-size: 1.9rem;
 }
 
 /******************************** ESTILOS PIZZETTAS ********************************/
@@ -237,21 +237,19 @@ body {
 
 @media screen and (min-width:760px) {
 
-    /* home */
-    .subtitulo--custom {
-        font-size: 3rem;
-    }
-
+    /***** ESTILOS GENERALES *****/
     .contenido__parrafo {
-        font-size: 20px;
+        font-size: 1.5rem;
     }
 
-    /* Home */
+    /**************** ESTILOS HOME ****************/
+    .tituloHome--custom {
+        font-size: 3.7rem;
+    }
 
-    /* Pizzettas */
-
-    .subtitulo--pizzettas {
-        font-size: 2.2rem;
+    /**************** ESTILOS PIZZETTAS ****************/
+    .tituloPizzettas--custom {
+        font-size: 2.7rem;
     }
 
     .cards__card {
@@ -259,29 +257,67 @@ body {
         margin: 15px;
     }
 
-    /* Historia */
+    /**************** ESTILOS HISTORIA ****************/
+    .tituloHistoria--custom {
+        font-size: 4.2rem;
+    }
+
+    /**************** ESTILOS TIPS ****************/
+    .tituloTips--custom {
+        font-size: 5rem;
+    }
+
+    .contenido__subtitulo {
+        font-size: 3rem;
+    }
+
+    .contenido__airfryer {
+        font-size: 1.7rem;
+    }
+
+    .contenido_parrafoTips {
+        font-size: 1.5rem;
+    }
+
+    /**************** ESTILOS CONTACTOS ****************/
+    .tituloContactos--custom {
+        font-size: 3.4rem;
+    }
+
+    .contenedorContactos__desc {
+        font-size: 2rem;
+    }
+
+    .contenedorContactos__info {
+        font-size: 2rem;
+    }
+
+    .info--desc {
+        font-size: 2rem;
+    }
 }
 
-/* ESTILOS DE TABLET */
+/******************************** ESTILOS PC ********************************/
 
 @media screen and (min-width:1280px) {
 
-    /* Home */
-    .main__imagenPricipal {
-        height: 60vh;
+    /***** ESTILOS GENERALES *****/
+    .contenido__parrafo {
+        font-size: 1.5rem;
     }
 
-    .main__subtitulo {
-        font-size: 80px;
+    /**************** ESTILOS HOME ****************/
+    .tituloHome--custom {
+        font-size: 5rem;
     }
 
-    .contenidoHome {
-        display: flex;
-        flex-direction: column;
-        color: #dce3e3;
-        margin: 10px;
-        text-align: center;
-        margin: 0;
-        padding: 0;
+    /**************** ESTILOS PIZZETTAS ****************/
+    .tituloPizzettas--custom {
+        font-size: 4rem;
+    }
+
+    .cards__card {
+        height: 620px;
+        margin: 15px;
     }
 }
