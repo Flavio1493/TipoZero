@@ -6,9 +6,8 @@ body {
     background-color: #282828;
 }
 
-/* ESTILOS GENERALES - START */
-/* ESTILOS NAVBAR - START*/
-
+/******************************** ESTILOS GENERALES ********************************/
+/*-------------------------------- ESTILOS NAVBAR --------------------------------*/
 .navbar--personalizacion {
     background-color: #dce3e3;
     font-family: Genhead;
@@ -21,8 +20,7 @@ body {
     padding: 8px;
 }
 
-/* ESTILOS NAVBAR - END*/
-/* MAIN - START */
+/*-------------------------------- ESTILOS MAIN --------------------------------*/
 .main__imagenPricipal {
     width: 100%;
     height: 35vh;
@@ -36,7 +34,7 @@ body {
     justify-content: flex-end;
 }
 
-.main__subtitulo {
+.main__titulo {
     font-family: Genhead;
     font-weight: bold;
     color: #00887a;
@@ -44,10 +42,6 @@ body {
     margin: 0;
     margin-right: 10px;
     text-shadow: 0 0 2px #0009;
-}
-
-.subtitulo--custom {
-    font-size: 1.4rem;
 }
 
 .contenido {
@@ -69,9 +63,7 @@ body {
     height: auto;
 }
 
-/* MAIN - END */
-
-/* ESTILOS DEL FOOTER - START */
+/*-------------------------------- ESTILOS FOOTER --------------------------------*/
 
 .footer {
     background-color: #dce3e3;
@@ -99,28 +91,23 @@ body {
     color: #282828;
 }
 
-/* ESTILOS DEL FOOTER - END */
-
-/**** ESTILOS DE HOME - START *****/
-/* MAIN - START*/
-
+/******************************** ESTILOS HOME ********************************/
 .imgPrincipal--imgPrincipalPagHome {
-    background-image: url(../recursos/img/img-principal-home-3.jpg);
+    background-image: url(../recursos/img/Home/img-principal-home-3.jpg);
 }
 
-/* MAIN - END*/
-/**** ESTILOS DE HOME - END *****/
+.tituloHome--custom {
+    color: #00887a;
+}
 
-/**** ESTILOS DE PIZZETTAS - START *****/
+/******************************** ESTILOS PIZZETTAS ********************************/
 
 .imgPrincipal--imgPrincipalPagPizzettas {
     background-image: url(../recursos/img/img-principal-pizzettas.jpg);
 }
 
-.subtitulo--pizzettas {
-    font-size: 1.1rem;
-    color: #282828;
-    text-shadow: 0 0 2px #dce3e3;
+.tituloPizzettas--custom {
+    font-size: 1.27rem;
 }
 
 .cards {
@@ -158,82 +145,25 @@ body {
     font-size: 0.8rem;
 }
 
-/**** ESTILOS DE PIZZETTAS - END *****/
-
-/* ESTILOS PAGINA HISTORIA - START */
-
+/******************************** ESTILOS HISTORIA ********************************/
 .imgPrincipal--imgPrincipalPagHistoria {
     background-image: url(../recursos/img/historia-img-principa.jpg);
 }
 
-/* ESTILOS PAGINA HISTORIA - END */
-
-/* ESTILOS PAGINA HISTORIA - START */
-
-.imgPrincipal--imgPrincipalPagContactos {
-    background-image: url(../recursos/img/img-principal-contactos.jpg);
+.tituloHistoria--custom {
+    font-size: 2rem;
 }
 
-.contenido__contactos {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
 
-.contacto__item {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-/* ESTILOS PAGINA HISTORIA - END */
-
-/* ESTILOS PAGINA CONTACTOS - START */
-
-.contenedor {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 15px;
-}
-
-.link__contactos {
-    width: 70px;
-    height: 70px;
-    margin: 10px;
-    padding: 0;
-}
-
-.contenedor__icon {
-    width: 100%;
-}
-
-.contenedor__desc {
-    color: #dce3e3;
-    font-family: Genhead;
-    font-weight: bold;
-    margin: 0;
-    padding: 0;
-}
-
-.contenedor__info {
-    color: #dce3e3;
-    font-family: Roboto;
-    font-weight: bold;
-}
-
-.info--desc {
-    margin: 0;
-    padding: 0;
-}
-
-/* ESTILOS PAGINA CONTACTOS - END */
-
-/* ESTILOS PAGINA TIPS - START */
+/******************************** ESTILOS TIPS ********************************/
 .imgPrincipal--imgPrincipalPagTips {
     background-image: url(../recursos/img/img-principal-tips.jpg);
+}
+
+
+.tituloTips--custom {
+    font-size: 2.8rem;
+    text-shadow: 0 0 10px #000;
 }
 
 .contenido__subtitulo {
@@ -249,10 +179,109 @@ body {
     padding: 0;
 }
 
-.contenido_parrafo {
+.contenido_parrafoTips {
     font-family: Roboto;
     margin: 5px;
     margin-bottom: 15px;
 }
 
-/* ESTILOS PAGINA TIPS - END */
+/******************************** ESTILOS CONTACTOS ********************************/
+.imgPrincipal--imgPrincipalPagContactos {
+    background-image: url(../recursos/img/img-principal-contactos.jpg);
+}
+
+.tituloContactos--custom {
+    font-size: 1.6rem;
+}
+
+.contenedorContactos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+.contenedorContactos__link {
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    padding: 0;
+}
+
+.contenedorContactos__icon {
+    width: 100%;
+}
+
+.contenedorContactos__desc {
+    color: #dce3e3;
+    font-family: Genhead;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedorContactos__info {
+    color: #dce3e3;
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+.info--desc {
+    margin: 0;
+    padding: 0;
+}
+
+/******************************** ESTILOS TABLETS ********************************/
+
+@media screen and (min-width:760px) {
+
+    /* home */
+    .subtitulo--custom {
+        font-size: 3rem;
+    }
+
+    .contenido__parrafo {
+        font-size: 20px;
+    }
+
+    /* Home */
+
+    /* Pizzettas */
+
+    .subtitulo--pizzettas {
+        font-size: 2.2rem;
+    }
+
+    .cards__card {
+        height: 420px;
+        margin: 15px;
+    }
+
+    /* Historia */
+}
+
+/* ESTILOS DE TABLET */
+
+@media screen and (min-width:1280px) {
+
+    /* Home */
+    .main__imagenPricipal {
+        height: 60vh;
+    }
+
+    .main__subtitulo {
+        font-size: 80px;
+    }
+
+    .contenidoHome {
+        display: flex;
+        flex-direction: column;
+        color: #dce3e3;
+        margin: 10px;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+}
