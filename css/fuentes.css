@@ -5,15 +5,15 @@
 
 @font-face {
   font-family: "GenheadBold";
-  src: url(../recursos/Fuentes/genhead-futuristic-font/genhead-bold.ttf);
+  src: url(../recursos/Fuentes/genhead-futuristic-font/genhead-bold.woff2);
 }
 
 @font-face {
   font-family: "Andalemo";
-  src: url(../recursos/Fuentes/andale-mono-cufonfonts/ANDALEMO.TTF);
+  src: url(../recursos/Fuentes/andale-mono-cufonfonts/ANDALEMO.woff2);
 }
 
 @font-face {
   font-family: "Roboto";
-  src: url(../recursos/Fuentes/Roboto/Roboto-Medium.ttf);
+  src: url(../recursos/Fuentes/Roboto/Roboto-Medium.woff2);
 }
