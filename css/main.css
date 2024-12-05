@@ -10,9 +10,13 @@ body {
 /*-------------------------------- ESTILOS NAVBAR --------------------------------*/
 .navbar--personalizacion {
     background-color: #dce3e3;
-    font-family: "Genhead";
-    font-weight: bold;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 900;
     color: #282828;
+}
+
+.nav-link--custom {
+    padding: 0;
 }
 
 .logo--tamano {
@@ -35,8 +39,8 @@ body {
 }
 
 .main__titulo {
-    font-family: "Genhead";
-    font-weight: bold;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 900;
     color: #00887a;
     padding: 0;
     margin: 0;
@@ -56,7 +60,7 @@ body {
 
 .contenido__parrafo {
     margin: 10px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Orbitron", sans-serif;
 }
 
 .contenido__img {
@@ -135,14 +139,14 @@ body {
     font-size: 0.8rem;
     margin: 3px;
     padding: 0;
-    font-family: "Genhead";
+    font-family: "Orbitron", sans-serif;
     font-weight: bold;
 }
 
 .cards__description {
     margin: 3px;
     padding: 0;
-    font-family: Anton;
+    font-family: "Orbitron", sans-serif;
     font-size: 0.8rem;
 }
 
@@ -168,20 +172,20 @@ body {
 }
 
 .contenido__subtitulo {
-    font-family: "Genhead";
-    font-weight: bold;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 900;
     margin: 15px;
 }
 
 .contenido__airfryer {
-    font-family: "Genhead";
+    font-family: "Orbitron", sans-serif;
     font-weight: bold;
     margin: 0;
     padding: 0;
 }
 
 .contenido_parrafoTips {
-    font-family: Roboto;
+    font-family: "Orbitron", sans-serif;
     margin: 5px;
     margin-bottom: 15px;
 }
@@ -217,7 +221,7 @@ body {
 
 .contenedorContactos__desc {
     color: #dce3e3;
-    font-family: "Genhead";
+    font-family: "Orbitron", sans-serif;
     font-weight: bold;
     margin: 0;
     padding: 0;
@@ -225,7 +229,7 @@ body {
 
 .contenedorContactos__info {
     color: #dce3e3;
-    font-family: Roboto;
+    font-family: "Orbitron", sans-serif;
     font-weight: bold;
 }
 
