@@ -1,0 +1,45 @@
+//Import variables
+@import "../utilidades/variables";
+//Import mixin
+@import "../utilidades/mixin";
+
+.imgPrincipal--imgPrincipalPagPizzettas {
+    background-image: url(../recursos/img/img-principal-pizzettas.jpg);
+}
+
+.tituloPizzettas--custom {
+    font-size: 1.27rem;
+}
+
+.cards {
+    @include flex-row
+}
+
+.cards__card {
+    width: 45%;
+    height: 260px;
+    background-color: $cards-bg-color;
+    margin: 8px;
+    text-align: center;
+    line-height: 15px;
+    box-shadow: 0 0 10px #dce3e3;
+}
+
+.card__img {
+    width: 100%;
+}
+
+.title--card {
+    font-size: 0.8rem;
+    margin: 3px;
+    padding: 0;
+    font-family: $font-family;
+    font-weight: bold;
+}
+
+.cards__description {
+    margin: 3px;
+    padding: 0;
+    font-family: $font-family;
+    font-size: 0.8rem;
+}

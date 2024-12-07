@@ -1,328 +1,305 @@
-/* Reset */
-body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: #282828;
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/******************************** ESTILOS GENERALES ********************************/
-/*-------------------------------- ESTILOS NAVBAR --------------------------------*/
+/* ESTILOS GENERALES*/
+body {
+  background-color: #282828;
+}
+
+/* NAVBAR*/
 .navbar--personalizacion {
-    background-color: #dce3e3;
-    font-family: "Orbitron", sans-serif;
-    font-weight: 900;
-    color: #282828;
+  background-color: #dce3e3;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 900;
+  color: #282828;
 }
 
 .nav-link--custom {
-    padding: 0;
+  padding: 0;
 }
 
 .logo--tamano {
-    width: 75px;
-    padding: 8px;
+  width: 75px;
+  padding: 8px;
 }
 
-/*-------------------------------- ESTILOS MAIN --------------------------------*/
+/* MAIN */
 .main__imagenPricipal {
-    width: 100%;
-    height: 35vh;
-    margin: 0;
-    padding: 0;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: flex-end;
+  width: 100%;
+  height: 35vh;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
 }
 
 .main__titulo {
-    font-family: "Orbitron", sans-serif;
-    font-weight: 900;
-    color: #00887a;
-    padding: 0;
-    margin: 0;
-    margin-right: 10px;
-    text-shadow: 0 0 2px #0009;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 900;
+  color: #00887a;
+  padding: 0;
+  margin: 0;
+  margin-right: 10px;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.6);
 }
 
 .contenido {
-    display: flex;
-    flex-direction: column;
-    color: #dce3e3;
-    margin: 10px;
-    text-align: center;
-    margin: 0;
-    padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #dce3e3;
+  margin: 10px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 .contenido__parrafo {
-    margin: 10px;
-    font-family: "Orbitron", sans-serif;
+  margin: 10px;
+  font-family: "Orbitron", sans-serif;
 }
 
 .contenido__img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
-/*-------------------------------- ESTILOS FOOTER --------------------------------*/
-
+/* FOOTER */
 .footer {
-    background-color: #dce3e3;
+  background-color: #dce3e3;
 }
 
 .footer__list {
-    display: flex;
-    margin: 0;
-    padding: 0;
-    justify-content: space-evenly;
-    list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: space-evenly;
+  list-style: none;
 }
 
 .link__icon {
-    margin: 0;
-    padding: 0;
-    margin-top: 10px;
-    width: 35px;
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
+  width: 35px;
 }
 
 .footer__parrafo {
-    margin: 5px;
-    margin-bottom: 0;
-    text-align: center;
-    color: #282828;
+  margin: 5px;
+  margin-bottom: 0;
+  text-align: center;
+  color: #282828;
 }
 
-/******************************** ESTILOS HOME ********************************/
 .imgPrincipal--imgPrincipalPagHome {
-    background-image: url(../recursos/img/Home/img-principal-home-3.jpg);
+  background-image: url(../recursos/img/Home/img-principal-home-3.jpg);
 }
 
 .tituloHome--custom {
-    font-size: 1.9rem;
+  font-size: 1.9rem;
 }
 
-/******************************** ESTILOS PIZZETTAS ********************************/
-
 .imgPrincipal--imgPrincipalPagPizzettas {
-    background-image: url(../recursos/img/img-principal-pizzettas.jpg);
+  background-image: url(../recursos/img/img-principal-pizzettas.jpg);
 }
 
 .tituloPizzettas--custom {
-    font-size: 1.27rem;
+  font-size: 1.27rem;
 }
 
 .cards {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .cards__card {
-    width: 45%;
-    height: 260px;
-    background-color: #dce3e3;
-    margin: 8px;
-    text-align: center;
-    line-height: 15px;
-    box-shadow: 0 0 10px #dce3e3;
+  width: 45%;
+  height: 260px;
+  background-color: #dce3e3;
+  margin: 8px;
+  text-align: center;
+  line-height: 15px;
+  box-shadow: 0 0 10px #dce3e3;
 }
 
 .card__img {
-    width: 100%;
+  width: 100%;
 }
 
 .title--card {
-    font-size: 0.8rem;
-    margin: 3px;
-    padding: 0;
-    font-family: "Orbitron", sans-serif;
-    font-weight: bold;
+  font-size: 0.8rem;
+  margin: 3px;
+  padding: 0;
+  font-family: "Orbitron", sans-serif;
+  font-weight: bold;
 }
 
 .cards__description {
-    margin: 3px;
-    padding: 0;
-    font-family: "Orbitron", sans-serif;
-    font-size: 0.8rem;
+  margin: 3px;
+  padding: 0;
+  font-family: "Orbitron", sans-serif;
+  font-size: 0.8rem;
 }
 
-/******************************** ESTILOS HISTORIA ********************************/
-.imgPrincipal--imgPrincipalPagHistoria {
-    background-image: url(../recursos/img/historia-img-principa.jpg);
-}
-
-.tituloHistoria--custom {
-    font-size: 2rem;
-}
-
-
-/******************************** ESTILOS TIPS ********************************/
 .imgPrincipal--imgPrincipalPagTips {
-    background-image: url(../recursos/img/img-principal-tips.jpg);
+  background-image: url(../recursos/img/img-principal-tips.jpg);
 }
-
 
 .tituloTips--custom {
-    font-size: 2.8rem;
-    text-shadow: 0 0 10px #000;
+  font-size: 2.8rem;
+  text-shadow: 0 0 10px #000;
 }
 
 .contenido__subtitulo {
-    font-family: "Orbitron", sans-serif;
-    font-weight: 900;
-    margin: 15px;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 900;
+  margin: 15px;
 }
 
 .contenido__airfryer {
-    font-family: "Orbitron", sans-serif;
-    font-weight: bold;
-    margin: 0;
-    padding: 0;
+  font-family: "Orbitron", sans-serif;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
 }
 
 .contenido_parrafoTips {
-    font-family: "Orbitron", sans-serif;
-    margin: 5px;
-    margin-bottom: 15px;
+  font-family: "Orbitron", sans-serif;
+  margin: 5px;
+  margin-bottom: 15px;
 }
 
-/******************************** ESTILOS CONTACTOS ********************************/
 .imgPrincipal--imgPrincipalPagContactos {
-    background-image: url(../recursos/img/img-principal-contactos.jpg);
+  background-image: url(../recursos/img/img-principal-contactos.jpg);
 }
 
 .tituloContactos--custom {
-    font-size: 1.6rem;
+  font-size: 1.6rem;
 }
 
 .contenedorContactos {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 15px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
 }
 
 .contenedorContactos__link {
-    width: 70px;
-    height: 70px;
-    margin: 10px;
-    padding: 0;
+  width: 70px;
+  height: 70px;
+  margin: 10px;
+  padding: 0;
 }
 
 .contenedorContactos__icon {
-    width: 100%;
+  width: 100%;
 }
 
 .contenedorContactos__desc {
-    color: #dce3e3;
-    font-family: "Orbitron", sans-serif;
-    font-weight: bold;
-    margin: 0;
-    padding: 0;
+  color: #dce3e3;
+  font-family: "Orbitron", sans-serif;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
 }
 
 .contenedorContactos__info {
-    color: #dce3e3;
-    font-family: "Orbitron", sans-serif;
-    font-weight: bold;
+  color: #dce3e3;
+  font-family: "Orbitron", sans-serif;
+  font-weight: bold;
 }
 
 .info--desc {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-/******************************** ESTILOS TABLETS ********************************/
-
-@media screen and (min-width:760px) {
-
-    /***** ESTILOS GENERALES *****/
-    .contenido__parrafo {
-        font-size: 1.5rem;
-    }
-
-    /**************** ESTILOS HOME ****************/
-    .tituloHome--custom {
-        font-size: 3.7rem;
-    }
-
-    /**************** ESTILOS PIZZETTAS ****************/
-    .tituloPizzettas--custom {
-        font-size: 2.7rem;
-    }
-
-    .cards__card {
-        height: 420px;
-        margin: 15px;
-    }
-
-    /**************** ESTILOS HISTORIA ****************/
-    .tituloHistoria--custom {
-        font-size: 4.2rem;
-    }
-
-    /**************** ESTILOS TIPS ****************/
-    .tituloTips--custom {
-        font-size: 5rem;
-    }
-
-    .contenido__subtitulo {
-        font-size: 3rem;
-    }
-
-    .contenido__airfryer {
-        font-size: 1.7rem;
-    }
-
-    .contenido_parrafoTips {
-        font-size: 1.5rem;
-    }
-
-    /**************** ESTILOS CONTACTOS ****************/
-    .tituloContactos--custom {
-        font-size: 3.4rem;
-    }
-
-    .contenedorContactos__desc {
-        font-size: 2rem;
-    }
-
-    .contenedorContactos__info {
-        font-size: 2rem;
-    }
-
-    .info--desc {
-        font-size: 2rem;
-    }
+.imgPrincipal--imgPrincipalPagHistoria {
+  background-image: url(../recursos/img/historia-img-principa.jpg);
 }
 
-/******************************** ESTILOS PC ********************************/
-
-@media screen and (min-width:1280px) {
-
-    /***** ESTILOS GENERALES *****/
-    .contenido__parrafo {
-        font-size: 1.5rem;
-    }
-
-    /**************** ESTILOS HOME ****************/
-    .tituloHome--custom {
-        font-size: 5rem;
-    }
-
-    /**************** ESTILOS PIZZETTAS ****************/
-    .tituloPizzettas--custom {
-        font-size: 4rem;
-    }
-
-    .cards__card {
-        height: 620px;
-        margin: 15px;
-    }
+.tituloHistoria--custom {
+  font-size: 2rem;
 }
+
+@media screen and (min-width: 760px) {
+  /* ESTILOS GENERALES*/
+  .contenido__parrafo {
+    font-size: 1.5rem;
+  }
+  /* ESTILOS HOME*/
+  .tituloHome--custom {
+    font-size: 3.7rem;
+  }
+  /* ESTILOS PIZZETTAS*/
+  .tituloPizzettas--custom {
+    font-size: 2.7rem;
+  }
+  .cards__card {
+    height: 420px;
+    margin: 15px;
+  }
+  /* ESTILOS HISTORIA */
+  .tituloHistoria--custom {
+    font-size: 4.2rem;
+  }
+  /* ESTILOS TIPS */
+  .tituloTips--custom {
+    font-size: 5rem;
+  }
+  .contenido__subtitulo {
+    font-size: 3rem;
+  }
+  .contenido__airfryer {
+    font-size: 1.7rem;
+  }
+  .contenido_parrafoTips {
+    font-size: 1.5rem;
+  }
+  /* ESTILOS CONTACTOS */
+  .tituloContactos--custom {
+    font-size: 3.4rem;
+  }
+  .contenedorContactos__desc {
+    font-size: 2rem;
+  }
+  .contenedorContactos__info {
+    font-size: 2rem;
+  }
+  .info--desc {
+    font-size: 2rem;
+  }
+}
+@media screen and (min-width: 1280px) {
+  /* ESTILOS GENERALES */
+  .contenido__parrafo {
+    font-size: 1.5rem;
+  }
+  /* ESTILOS HOME */
+  .tituloHome--custom {
+    font-size: 5rem;
+  }
+  /* ESTILOS PIZZETTAS */
+  .tituloPizzettas--custom {
+    font-size: 4rem;
+  }
+  .cards__card {
+    height: auto;
+    margin: 15px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

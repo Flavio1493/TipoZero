@@ -1,0 +1,26 @@
+//Import variables
+@import "../utilidades/variables";
+//Import mixin
+@import "../utilidades/mixin";
+
+@media screen and (min-width:1280px){
+    /* ESTILOS GENERALES */
+    .contenido__parrafo {
+        @include font-size(1.5rem);
+    }
+
+    /* ESTILOS HOME */
+    .tituloHome--custom {
+        @include font-size(5rem);
+    }
+
+    /* ESTILOS PIZZETTAS */
+    .tituloPizzettas--custom {
+        @include font-size(4rem);
+    }
+
+    .cards__card {
+        height: auto;
+        margin: 15px;
+    }
+}

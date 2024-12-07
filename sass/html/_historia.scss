@@ -1,0 +1,13 @@
+//Import variables
+@import "../utilidades/variables";
+//Import mixin
+@import "../utilidades/mixin";
+
+.imgPrincipal--imgPrincipalPagHistoria {
+    background-image: url(../recursos/img/historia-img-principa.jpg);
+}
+
+.tituloHistoria--custom {
+    font-size: 2rem;
+}
+

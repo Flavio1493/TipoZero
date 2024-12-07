@@ -1,0 +1,65 @@
+//Import variables
+@import "../utilidades/variables";
+//Import mixin
+@import "../utilidades/mixin";
+
+@media screen and (min-width:760px) {
+    /* ESTILOS GENERALES*/
+    .contenido__parrafo {
+        @include font-size(1.5rem);
+    }
+
+    /* ESTILOS HOME*/
+    .tituloHome--custom {
+        @include font-size(3.7rem);
+    }
+
+    /* ESTILOS PIZZETTAS*/
+    .tituloPizzettas--custom {
+        @include font-size(2.7rem);
+    }
+
+    .cards__card {
+        height: 420px;
+        margin: 15px;
+    }
+
+    /* ESTILOS HISTORIA */
+    .tituloHistoria--custom {
+        @include font-size(4.2rem);
+    }
+
+    /* ESTILOS TIPS */
+    .tituloTips--custom {
+        @include font-size(5rem);
+    }
+
+    .contenido__subtitulo {
+        @include font-size(3rem);
+    }
+
+    .contenido__airfryer {
+        @include font-size(1.7rem);
+    }
+
+    .contenido_parrafoTips {
+        @include font-size(1.5rem);
+    }
+
+    /* ESTILOS CONTACTOS */
+    .tituloContactos--custom {
+        @include font-size(3.4rem);
+    }
+
+    .contenedorContactos__desc {
+        @include font-size(2rem);
+    }
+
+    .contenedorContactos__info {
+        @include font-size(2rem);
+    }
+
+    .info--desc {
+        @include font-size(2rem);
+    }
+}
