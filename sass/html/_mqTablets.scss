@@ -3,6 +3,8 @@
 //Import mixin
 @import "../utilidades/mixin";
 
+/***** Estilos de Tablets *****/
+
 @media screen and (min-width:760px) {
     /* ESTILOS GENERALES*/
     .contenido__parrafo {
@@ -10,56 +12,60 @@
     }
 
     /* ESTILOS HOME*/
-    .tituloHome--custom {
-        @include font-size(3.7rem);
+    .imgPrincipal--imgPrincipalPagHome{
+        h2{
+            @include font-size(6rem);
+        }
     }
 
     /* ESTILOS PIZZETTAS*/
-    .tituloPizzettas--custom {
-        @include font-size(2.7rem);
-    }
-
-    .cards__card {
-        height: 420px;
-        margin: 15px;
+    .imgPrincipal--imgPrincipalPagPizzettas {
+        h2{
+            @include font-size(3.5rem);
+        }
     }
 
     /* ESTILOS HISTORIA */
-    .tituloHistoria--custom {
-        @include font-size(4.2rem);
+    .imgPrincipal--imgPrincipalPagHistoria {
+        h2{
+            @include font-size(5rem);
+        }
     }
 
     /* ESTILOS TIPS */
-    .tituloTips--custom {
-        @include font-size(5rem);
+    .imgPrincipal--imgPrincipalPagTips {
+        h2{
+            @include font-size(7rem);
+        }
     }
 
-    .contenido__subtitulo {
-        @include font-size(3rem);
-    }
+    .contenido{
+        h2{
+            @include font-size(3rem); 
+        }
 
-    .contenido__airfryer {
-        @include font-size(1.7rem);
-    }
+        h6{
+            @include font-size(1.8rem); 
+        }
 
-    .contenido_parrafoTips {
-        @include font-size(1.5rem);
+        p{
+            @include font-size(1.5rem); 
+        }
     }
 
     /* ESTILOS CONTACTOS */
-    .tituloContactos--custom {
-        @include font-size(3.4rem);
+    .imgPrincipal--imgPrincipalPagContactos {
+        h2{
+            @include font-size(4rem);
+        }
     }
 
-    .contenedorContactos__desc {
-        @include font-size(2rem);
-    }
-
-    .contenedorContactos__info {
-        @include font-size(2rem);
-    }
-
-    .info--desc {
-        @include font-size(2rem);
+    .contenedorContactos{
+        a{
+            margin-top: 50px;
+        }
+        p{
+            @include font-size(2rem);
+        }
     }
 }

@@ -3,12 +3,13 @@
 //Import mixin
 @import "../utilidades/mixin";
 
+/***** Estilos Contactos *****/
+
 .imgPrincipal--imgPrincipalPagContactos {
     background-image: url(../recursos/img/img-principal-contactos.jpg);
-}
-
-.tituloContactos--custom {
-    font-size: 1.6rem;
+    h2{
+        @include font-size(2.2rem);
+    }
 }
 
 .contenedorContactos {
@@ -18,35 +19,20 @@
     justify-content: center;
     align-items: center;
     margin: 0px;
+    a{
+        width: 70px;
+        height: 70px;
+        margin: 10px;
+        padding: 0;
+        img{
+            width: 100%;
+        }
+    }
+    p{
+        color: $text-color;
+        font-family: $font-family;
+        font-weight: bold;
+        margin: 0;
+        padding: 0;
+    }
 }
-
-.contenedorContactos__link {
-    width: 70px;
-    height: 70px;
-    margin: 10px;
-    padding: 0;
-}
-
-.contenedorContactos__icon {
-    width: 100%;
-}
-
-.contenedorContactos__desc {
-    color: $text-color;
-    font-family: $font-family;
-    font-weight: bold;
-    margin: 0;
-    padding: 0;
-}
-
-.contenedorContactos__info {
-    color: $text-color;
-    font-family: $font-family;
-    font-weight: bold;
-}
-
-.info--desc {
-    margin: 0;
-    padding: 0;
-}
-

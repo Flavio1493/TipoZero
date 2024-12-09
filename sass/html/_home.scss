@@ -1,7 +1,14 @@
+//Import variables
+@import "../utilidades/variables";
+//Import mixin
+@import "../utilidades/mixin";
+
+/***** Estilos Home *****/
+
 .imgPrincipal--imgPrincipalPagHome {
     background-image: url(../recursos/img/Home/img-principal-home-3.jpg);
-}
-
-.tituloHome--custom {
-    font-size: 1.9rem;
+    
+    h2{
+        @include font-size(2.7rem)
+    }
 }

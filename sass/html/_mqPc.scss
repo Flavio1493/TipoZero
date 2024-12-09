@@ -3,6 +3,8 @@
 //Import mixin
 @import "../utilidades/mixin";
 
+/***** Estilos de PC *****/
+
 @media screen and (min-width:1280px){
     /* ESTILOS GENERALES */
     .contenido__parrafo {
@@ -10,12 +12,16 @@
     }
 
     /* ESTILOS HOME */
-    .tituloHome--custom {
-        @include font-size(5rem);
+    .imgPrincipal--imgPrincipalPagHome{
+        h2{
+            @include font-size(5rem);
+        }
     }
+    
 
     /* ESTILOS PIZZETTAS */
-    .tituloPizzettas--custom {
+    .imgPrincipal--imgPrincipalPagPizzettas
+    h2{
         @include font-size(4rem);
     }
 

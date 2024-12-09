@@ -17,14 +17,12 @@ body {
   font-weight: 900;
   color: #282828;
 }
-
-.nav-link--custom {
-  padding: 0;
-}
-
-.logo--tamano {
+.navbar--personalizacion div img {
   width: 75px;
   padding: 8px;
+}
+.navbar--personalizacion div div div a {
+  padding: 0;
 }
 
 /* MAIN */
@@ -40,15 +38,14 @@ body {
   align-items: flex-end;
   justify-content: flex-end;
 }
-
-.main__titulo {
+.main__imagenPricipal h2 {
   font-family: "Orbitron", sans-serif;
   font-weight: 900;
   color: #00887a;
   padding: 0;
   margin: 0;
   margin-right: 10px;
-  text-shadow: 0 0 2px rgba(0, 0, 0, 0.6);
+  text-shadow: 2px 1px 3px black;
 }
 
 .contenido {
@@ -62,13 +59,11 @@ body {
   margin: 0;
   padding: 0;
 }
-
-.contenido__parrafo {
+.contenido p {
   margin: 10px;
   font-family: "Orbitron", sans-serif;
 }
-
-.contenido__img {
+.contenido img {
   width: 100%;
   height: auto;
 }
@@ -77,16 +72,14 @@ body {
 .footer {
   background-color: #dce3e3;
 }
-
-.footer__list {
+.footer ul {
   display: flex;
   margin: 0;
   padding: 0;
   justify-content: space-evenly;
   list-style: none;
 }
-
-.link__icon {
+.footer ul a img {
   margin: 0;
   padding: 0;
   margin-top: 10px;
@@ -100,20 +93,20 @@ body {
   color: #282828;
 }
 
+/***** Estilos Home *****/
 .imgPrincipal--imgPrincipalPagHome {
   background-image: url(../recursos/img/Home/img-principal-home-3.jpg);
 }
-
-.tituloHome--custom {
-  font-size: 1.9rem;
+.imgPrincipal--imgPrincipalPagHome h2 {
+  font-size: 2.7rem;
 }
 
+/***** Estilos Pizzzettas *****/
 .imgPrincipal--imgPrincipalPagPizzettas {
   background-image: url(../recursos/img/img-principal-pizzettas.jpg);
 }
-
-.tituloPizzettas--custom {
-  font-size: 1.27rem;
+.imgPrincipal--imgPrincipalPagPizzettas h2 {
+  font-size: 1.7rem;
 }
 
 .cards {
@@ -122,70 +115,65 @@ body {
   align-items: center;
   flex-wrap: wrap;
 }
-
-.cards__card {
+.cards div {
   width: 45%;
-  height: 260px;
+  height: auto;
   background-color: #dce3e3;
   margin: 8px;
   text-align: center;
   line-height: 15px;
   box-shadow: 0 0 10px #dce3e3;
 }
-
-.card__img {
+.cards div img {
   width: 100%;
 }
-
-.title--card {
+.cards div h6 {
   font-size: 0.8rem;
   margin: 3px;
   padding: 0;
   font-family: "Orbitron", sans-serif;
   font-weight: bold;
 }
-
-.cards__description {
+.cards div p {
   margin: 3px;
   padding: 0;
   font-family: "Orbitron", sans-serif;
   font-size: 0.8rem;
 }
 
+/***** Estilos Tips *****/
 .imgPrincipal--imgPrincipalPagTips {
   background-image: url(../recursos/img/img-principal-tips.jpg);
 }
-
-.tituloTips--custom {
-  font-size: 2.8rem;
+.imgPrincipal--imgPrincipalPagTips h2 {
+  font-size: 4rem;
   text-shadow: 0 0 10px #000;
 }
 
-.contenido__subtitulo {
+.contenido h2 {
   font-family: "Orbitron", sans-serif;
   font-weight: 900;
   margin: 15px;
 }
-
-.contenido__airfryer {
+.contenido h6 {
   font-family: "Orbitron", sans-serif;
   font-weight: bold;
+  color: #c14c25;
   margin: 0;
   padding: 0;
 }
-
-.contenido_parrafoTips {
+.contenido p {
   font-family: "Orbitron", sans-serif;
   margin: 5px;
   margin-bottom: 15px;
 }
 
+/***** Estilos Contactos *****/
 .imgPrincipal--imgPrincipalPagContactos {
   background-image: url(../recursos/img/img-principal-contactos.jpg);
 }
-
-.tituloContactos--custom {
-  font-size: 1.6rem;
+.imgPrincipal--imgPrincipalPagContactos h2 {
+  font-size: 2.2rem;
 }
 
 .contenedorContactos {
@@ -196,33 +184,19 @@ body {
   align-items: center;
   margin: 0px;
 }
-
-.contenedorContactos__link {
+.contenedorContactos a {
   width: 70px;
   height: 70px;
   margin: 10px;
   padding: 0;
 }
-
-.contenedorContactos__icon {
+.contenedorContactos a img {
   width: 100%;
 }
-
-.contenedorContactos__desc {
+.contenedorContactos p {
   color: #dce3e3;
   font-family: "Orbitron", sans-serif;
   font-weight: bold;
-  margin: 0;
-  padding: 0;
-}
-
-.contenedorContactos__info {
-  color: #dce3e3;
-  font-family: "Orbitron", sans-serif;
-  font-weight: bold;
-}
-
-.info--desc {
   margin: 0;
   padding: 0;
 }
@@ -230,70 +204,64 @@ body {
 .imgPrincipal--imgPrincipalPagHistoria {
   background-image: url(../recursos/img/historia-img-principa.jpg);
 }
-
-.tituloHistoria--custom {
-  font-size: 2rem;
+.imgPrincipal--imgPrincipalPagHistoria h2 {
+  font-size: 2.5rem;
 }
 
+/***** Estilos de Tablets *****/
 @media screen and (min-width: 760px) {
   /* ESTILOS GENERALES*/
   .contenido__parrafo {
     font-size: 1.5rem;
   }
   /* ESTILOS HOME*/
-  .tituloHome--custom {
-    font-size: 3.7rem;
+  .imgPrincipal--imgPrincipalPagHome h2 {
+    font-size: 6rem;
   }
   /* ESTILOS PIZZETTAS*/
-  .tituloPizzettas--custom {
-    font-size: 2.7rem;
-  }
-  .cards__card {
-    height: 420px;
-    margin: 15px;
+  .imgPrincipal--imgPrincipalPagPizzettas h2 {
+    font-size: 3.5rem;
   }
   /* ESTILOS HISTORIA */
-  .tituloHistoria--custom {
-    font-size: 4.2rem;
-  }
-  /* ESTILOS TIPS */
-  .tituloTips--custom {
+  .imgPrincipal--imgPrincipalPagHistoria h2 {
     font-size: 5rem;
   }
-  .contenido__subtitulo {
+  /* ESTILOS TIPS */
+  .imgPrincipal--imgPrincipalPagTips h2 {
+    font-size: 7rem;
+  }
+  .contenido h2 {
     font-size: 3rem;
   }
-  .contenido__airfryer {
-    font-size: 1.7rem;
+  .contenido h6 {
+    font-size: 1.8rem;
   }
-  .contenido_parrafoTips {
+  .contenido p {
     font-size: 1.5rem;
   }
   /* ESTILOS CONTACTOS */
-  .tituloContactos--custom {
-    font-size: 3.4rem;
+  .imgPrincipal--imgPrincipalPagContactos h2 {
+    font-size: 4rem;
   }
-  .contenedorContactos__desc {
-    font-size: 2rem;
+  .contenedorContactos a {
+    margin-top: 50px;
   }
-  .contenedorContactos__info {
-    font-size: 2rem;
-  }
-  .info--desc {
+  .contenedorContactos p {
     font-size: 2rem;
   }
 }
+/***** Estilos de PC *****/
 @media screen and (min-width: 1280px) {
   /* ESTILOS GENERALES */
   .contenido__parrafo {
     font-size: 1.5rem;
   }
   /* ESTILOS HOME */
-  .tituloHome--custom {
+  .imgPrincipal--imgPrincipalPagHome h2 {
     font-size: 5rem;
   }
   /* ESTILOS PIZZETTAS */
-  .tituloPizzettas--custom {
+  .imgPrincipal--imgPrincipalPagPizzettas h2 {
     font-size: 4rem;
   }
   .cards__card {
