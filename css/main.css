@@ -254,10 +254,10 @@ body {
 @media screen and (min-width: 1280px) {
   /* ESTILOS GENERALES */
   a:hover {
-    font-size: 1.03rem;
+    opacity: 0.5;
   }
   .contenido__parrafo {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   /* ESTILOS HOME */
   .imgPrincipal--imgPrincipalPagHome h2 {
