@@ -6,9 +6,16 @@
 /***** Estilos Home *****/
 
 .imgPrincipal--imgPrincipalPagHome {
-    background-image: url(../recursos/img/Home/img-principal-home-3.jpg);
+    background-image: url(../../recursos/img/Home/principal_mobile.jpg);
     
     h2{
         @include font-size(2.7rem)
+    }
+}
+
+.contenido{
+    img{
+        width: 100%;
+        height: 150px;
     }
 }
